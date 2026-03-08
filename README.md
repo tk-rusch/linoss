@@ -1,6 +1,6 @@
 # Oscillatory State-Space Models (ICLR2025 Oral)
 
-This  repository contains the official implementation for the paper [Oscillatory State-Space Models](https://openreview.net/pdf?id=GRMfXcAAFh) by [T. Konstantin Rusch](https://konstantinrusch.com/) and [Daniela Rus](https://www.csail.mit.edu/person/daniela-rus).
+This repository contains the official implementation for the paper [Oscillatory State-Space Models](https://openreview.net/pdf?id=GRMfXcAAFh) by [T. Konstantin Rusch](https://konstantinrusch.com/) and [Daniela Rus](https://www.csail.mit.edu/person/daniela-rus).
 
 ### ![NEW](https://img.shields.io/badge/NEW-red) For a complete JAX-based SSM library including LinOSS and other state-of-the-art SSM architectures, please check out our [Discretax library](https://github.com/camail-official/discretax).
 
@@ -30,7 +30,7 @@ The code for preprocessing the datasets, training LinOSS, S5, LRU, NCDE, NRDE, a
 conda create -n LinOSS python=3.10
 conda activate LinOSS
 conda install pre-commit=3.7.1 sktime=0.30.1 tqdm=4.66.4 matplotlib=3.8.4 -c conda-forge
-# Substitue for correct Jax pip install: https://jax.readthedocs.io/en/latest/installation.html
+# Substitute for correct Jax pip install: https://jax.readthedocs.io/en/latest/installation.html
 pip install -U "jax[cuda12]" "jaxlib[cuda12]" equinox==0.11.4 optax==0.2.2 diffrax==0.5.1 signax==0.1.1
 ```
 
